@@ -1,0 +1,8 @@
+{
+  "name": "Ubuntu with Docker CLI",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "docker-in-docker": "latest"
+  },
+  "postCreateCommand": "docker --version && docker info"
+}
